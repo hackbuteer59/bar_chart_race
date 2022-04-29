@@ -26,7 +26,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=["pandas>=0.24", "matplotlib>=3.1"],
+    install_requires=["pandas>=0.24", "matplotlib>=3.1","openpyxl>=3.0.9","pycountry>=22.3.5"],
     python_requires='>=3.6',
     include_package_data=True,
 )
